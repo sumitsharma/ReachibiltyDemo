@@ -3,7 +3,7 @@ ReachibiltyDemo
 
 #Point 1 : Check Network/Internet at every ViewController.
 
-#Point 2 : Use Reachibility.h Provided by Google.
+#Point 2 : Use Reachibility.h Provided by Apple.
 
 #Point 3 : This library is called in AppDelegate. So whenever Connection is lost/gain user is rectified via alert.
 

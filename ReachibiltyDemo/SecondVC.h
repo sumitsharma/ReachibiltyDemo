@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  SecondVC.h
 //  ReachibiltyDemo
 //
 //  Created by Magnon International on 29/07/13.
@@ -8,6 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
+@interface SecondVC : UIViewController{
+    
+    IBOutlet UIButton *btnFirstVC;
+}
 
+-(IBAction)btnFirstVCIsClicked:(id)sender;
 @end

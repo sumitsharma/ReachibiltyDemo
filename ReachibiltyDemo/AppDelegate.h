@@ -8,12 +8,21 @@
 
 #import <UIKit/UIKit.h>
 
-@class ViewController;
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
+@class FirstVC;
+@class Reachability;
+
+@interface AppDelegate : UIResponder <UIApplicationDelegate>{
+    
+    UINavigationController *navigationController;
+    FirstVC *objFirstVC;
+    
+    Reachability* hostReach;
+    Reachability* internetReach;
+    Reachability* wifiReach;
+}
 
 @property (strong, nonatomic) UIWindow *window;
 
-@property (strong, nonatomic) ViewController *viewController;
 
 @end
